@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(foto/liverwort.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+body{
+    font-family: Comic Sans MS;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-image:url(foto/butterfly.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:100% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+nav{
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    background-image: linear-gradient(#fefefe, #e2e4e0);
+    border-radius: 7px;
+    border-top: 5px solid #9ACD32;
+    
+}
+ul{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+li{
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+    border-radius: 7px;
+    border: 2px solid #F0E68C;
+    position: relative
+    top:-5px;
+}
+li:hover{
+    background-image:  linear-gradient(#F0E68C, #BDB76B)
+}
+
+.antras{
+    background-image: linear-gradient(#F0E68C, #BDB76B)
+}
+a{
+    display: block;
+    width: 100px;
+  height: 60px;
+   text-decoration: none; 
+    padding-top: 10px;
+    color: forestgreen;
+}
+a:hover{
+    color: white;
+}
+h1{
+    width: 500px;
+    height: 200px;
+    outline: 2px solid blue;
+    margin: 0 auto;
+    text-align: center;
+   margin-top: 50px;
+    background-image: linear-gradient(#F0E68C, #BDB76B);
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px 2px 2px;
+    border-radius: 7px;
+    font-size:50px ;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-image:radial-gradient(orange, yellow) ; 
+    padding: 10px;
+    position: relative;
+}
+section div{
+    width:200px ;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    color: white;
+    
+}
+.foto1{
+    background-image: url(foto/blue.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.foto2{
+    background-image: url(foto/butterfly.jpg);
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+.foto3{
+    background-image: url(foto/cherry.jpg);
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.foto4{
+    background-image: url(foto/cherry2.jpg);
+    position: absolute;
+    top:0;
+    left: 60%;
+}
+.foto5{
+    background-image: url(foto/crocus.jpg);
+    position: absolute;
+    left: 80%;
+}
+.foto6{
+    background-image: url(foto/crocus2.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.foto7{
+    background-image: url(foto/leaf.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.foto8{
+    background-image: url(foto/liverwort.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 40%
+}
+.foto9{
+    background-image: url(foto/lapai.jpg);
+    position: absolute;
+    bottom:0;
+    left:60%;
+}
+.foto10{
+    background-image: url(foto/tulips2.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+section div:hover{
+    mix-blend-mode: screen;
+}
